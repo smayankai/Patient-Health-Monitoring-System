@@ -82,7 +82,3 @@ figures/     visualizations and distribution plots
 docs/        project_report.pdf
 notebooks/   exported research notebooks
 ```
-
-## Notes
-
-This repository preserves the supplied project with only a small README link update. Sensor data is synthetic, and the ESP32 sketch has not been validated on physical hardware.
