@@ -37,7 +37,7 @@ export default function App() {
   const [testSpo2, setTestSpo2] = useState(97);
 
   // MQTT state
-  const [topic, setTopic] = useState('himanshu-patient/monitor/data');
+  const [topic, setTopic] = useState('smayan-patient/monitor/data');
   const [mqttStatus, setMqttStatus] = useState('connecting');
   const [lastSubMessage, setLastSubMessage] = useState(null);
   const mqttClientRef = useRef(null);
